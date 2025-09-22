@@ -1,7 +1,6 @@
 package Calculator;
 import java.util.Scanner;
-//Addded
-//removed
+
 public class AreaCalculator {
 
     public static double rectangle(double L, double B) {
