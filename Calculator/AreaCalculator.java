@@ -1,9 +1,19 @@
 package Calculator;
-
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.util.Scanner;
 
 public class AreaCalculator {
     public static void main(String[] args) {
+        JFrame frame = new JFrame("My First GUI Calculator");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setSize(720, 720);
+        frame.setVisible(true);
+
+        JPanel panel = new JPanel();
+        frame.add(panel);
+        
         Scanner sc = new Scanner(System.in);
         String ask = "Y";
 
